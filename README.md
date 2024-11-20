@@ -7,6 +7,7 @@ Projeto para criar um encurtador de URL
 - AWS
   - lambda (execução do codigo como serveless)
   - S3 (armazenamento)
+  - Api gateway
 
 
 ## Criando o link encurtado
