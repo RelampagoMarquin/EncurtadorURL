@@ -26,3 +26,10 @@ obs: por enquanto só está funcionando via requisição post (user o postman, t
   }
 ```
 
+
+## link 'encurtado'
+
+```
+  https://2hzh2ssvvgz5m5tx4zvpfhmcva0qjbdr.lambda-url.us-east-2.on.aws/{idrecebidonarequicicao}
+```
+
