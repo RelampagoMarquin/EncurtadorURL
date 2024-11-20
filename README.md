@@ -9,10 +9,10 @@ Projeto para criar um encurtador de URL
   - S3 (armazenamento)
 
 
-## Link de acesso
+## Criando o link encurtado
 
 ```
-  https://vqa7l3qtfgs6j65ouej7osbdj40lkhry.lambda-url.us-east-2.on.aws
+  https://lwpocooq43.execute-api.us-east-2.amazonaws.com/create
 ```
 
 obs: por enquanto só está funcionando via requisição post (user o postman, thunder client ou outro app para fazer a requisição)
@@ -30,6 +30,6 @@ obs: por enquanto só está funcionando via requisição post (user o postman, t
 ## link 'encurtado'
 
 ```
-  https://2hzh2ssvvgz5m5tx4zvpfhmcva0qjbdr.lambda-url.us-east-2.on.aws/{idrecebidonarequicicao}
+  https://lwpocooq43.execute-api.us-east-2.amazonaws.com/{idrecebidonarequicicao}
 ```
 
