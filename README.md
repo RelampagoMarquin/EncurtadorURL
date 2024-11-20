@@ -3,8 +3,10 @@ Projeto para criar um encurtador de URL
 
 ## Tecnologias
 
-- Java
-- AWS (função lambda)
+- Java 17
+- AWS
+  - lambda (execução do codigo como serveless)
+  - S3 (armazenamento)
 
 
 ## Link de acesso
@@ -14,3 +16,13 @@ Projeto para criar um encurtador de URL
 ```
 
 obs: por enquanto só está funcionando via requisição post (user o postman, thunder client ou outro app para fazer a requisição)
+
+### Exemplo de json
+
+```
+  {
+    "urlOriginal": "https://github.com/RelampagoMarquin/EncurtadorURL/tree/main",
+    "expirationTime": "172859200000"
+  }
+```
+
